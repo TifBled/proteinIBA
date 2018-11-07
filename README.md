@@ -6,11 +6,14 @@
 >  
 >This is a modification of the script (genome_getprobe_BLAST.py) from  Espeland et al. 2018. to use tblastx instead of blastn to screen loci from denovo assemblies of capture data against set of reference coding exons loci. For use "python genome_getprobe_TBLASTX.py -h" for script help menu and defination of needed input.
 >  
-## protein_IBA.py
 
-  This is a modification of the script (IBA.py) from  Breinholt et al. 2018. to use protein refrence sequences as baits for IBA assembly. For use "protein_IBA.py -h" for script help menu and defination of needed input. Script contains detailed commented header with python, modules and dependancy requierments.
-  
- ## protein_dir_fixer.py
+>## protein_IBA.py
+
+>This is a modification of the script (IBA.py) from  Breinholt et al. 2018. to use protein refrence sequences as baits for IBA assembly. For use "protein_IBA.py -h" for script help menu and defination of needed input. Script contains detailed commented header with python, modules and dependancy requierments.
+> 
+
+>## protein_dir_fixer.py
  
-This script takes the output of protein_IBA.py (*_finaltable.table and *_finalseqs.fasta) and puts sequences in the same direction of the protein reference and produces a sequnce file with data trimed to blast hit coordinates from the reference 
+>This script takes the output of protein_IBA.py (*_finaltable.table and *_finalseqs.fasta) and puts sequences in the same direction of the protein reference and produces a sequnce file with data trimed to blast hit coordinates from the reference 
 For use "python protein_dir_fixer.py -h" for script help menu and defination of needed input. Script contains detailed commented header with python, modules and dependancy requierments.
+>
